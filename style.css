@@ -61,15 +61,13 @@ body{
 
 .cell.x::before,
 .cell.x::after,
-.cell.circle::before,
-.cell.circle::after{
+.cell.circle::before{
     background-color: #747866;
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
-.board.circle .cell:not(.x):not(.circle):hover::before,
-.board.circle .cell:not(.x):not(.circle):hover::after{
+.board.circle .cell:not(.x):not(.circle):hover::before{
     background-color: #989f84;
 }
 
